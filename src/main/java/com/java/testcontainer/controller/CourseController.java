@@ -12,6 +12,7 @@ import java.util.List;
 @RequestMapping("/api/v1")
 public class CourseController {
 
+    @Autowired
     CourseRepository courseRepository;
 
     @GetMapping("/courses")
